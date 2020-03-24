@@ -97,10 +97,10 @@ html, body{
 }
 @media screen and (max-width: 768px){
     .bg{
-        background-attachment: none;
+        background-attachment: scroll;
     }
     .small-bg{
-        background-attachment: none;
+        background-attachment: scroll;
     }
 }
 
