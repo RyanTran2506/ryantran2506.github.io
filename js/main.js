@@ -40,12 +40,12 @@ var $animation_elements = $(".animation-element");
                 $element.addClass("in-view");
             }
             else{
-                // $element.removeClass("in-view");
+                $element.removeClass("in-view");
             }
         });
     }
     
     $window.on("scroll resize", check_if_in_view);
-    //$window.on("scroll", move);
-    //$window.on("scroll resize", move);
+    // $window.on("scroll", move);
+    // $window.on("scroll resize", move);
     $window.trigger("scroll");
