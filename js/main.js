@@ -40,7 +40,7 @@ var $animation_elements = $(".animation-element");
                 $element.addClass("in-view");
             }
             else{
-                $element.removeClass("in-view");
+                //$element.removeClass("in-view");
             }
         });
     }
