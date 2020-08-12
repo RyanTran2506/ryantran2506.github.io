@@ -5,7 +5,7 @@
 *{
     font-family: myFont;
     overflow-x: hidden;
-    
+    color: #fff;
 }
 html, body{
     width: 100%;
@@ -28,9 +28,12 @@ html, body{
 
 .navbar-nav{
     width: 60%;
+}
+.navbar-nav span{
     font-size: 28px;
     font-weight: 500;
 }
+
 .nav-link span:after
 {
     display:block;
@@ -63,13 +66,12 @@ html, body{
     -ms-transition: all 0.6s ease-out;
     transition: all 0.6s ease-out;
     background: rgb(58, 65, 83); /* IE */
-    background: rgba(58, 65, 83, 0.5); /* NON-IE */
+    background: rgba(58, 65, 83, 0.7); /* NON-IE */
 }
 .navbar.scrolled {
     background: rgb(58, 65, 83); /* IE */
-    background: rgba(58, 65, 83, 0.8); /* NON-IE */
+    background: rgba(58, 65, 83, 1); /* NON-IE */
 }
-
 
 #home-section{
     min-height: 100vh;
@@ -104,12 +106,12 @@ html, body{
     }
 }
 
-#contact-section{
-    overflow: hidden;
+.opacity{
+    background-color: rgba(58, 65, 83, 0.85);
 }
 
-.count i{
-    color: orange;
+#about-section p, li{
+    font-size: 20px;
 }
 .animation-element {
     opacity: 0;
