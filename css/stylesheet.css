@@ -13,16 +13,12 @@ html, body{
 .bg{
     background-image: url("../img/cover1.jpg");
     background-repeat: no-repeat;
+    height: 100%;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
 .small-bg{
-    background-image: url("../img/cover1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     height: 20vh;
 }
 
@@ -96,14 +92,22 @@ html, body{
     #skills-section h4{
         font-size: 1em
     }
+    .bg{
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        
+    }
 }
 @media screen and (max-width: 768px){
     .bg{
         background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
-    .small-bg{
-        background-attachment: scroll;
-    }
+  
 }
 
 .opacity{

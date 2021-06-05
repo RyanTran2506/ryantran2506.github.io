@@ -39,13 +39,8 @@ var $animation_elements = $(".animation-element");
             if((element_bottom_position >= window_top_position) && (element_top_position <= window_bottom_position)){
                 $element.addClass("in-view");
             }
-            else{
-                //$element.removeClass("in-view");
-            }
         });
     }
     
     $window.on("scroll resize", check_if_in_view);
-    // $window.on("scroll", move);
-    // $window.on("scroll resize", move);
     $window.trigger("scroll");
