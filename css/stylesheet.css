@@ -93,19 +93,15 @@ html, body{
         font-size: 1em
     }
     .bg{
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+
+        background-attachment: fixed;
         
     }
 }
 @media screen and (max-width: 768px){
     .bg{
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+       
+        background-attachment: fixed;
     }
   
 }
